@@ -80,7 +80,7 @@ def extra_coffee_bot():
   hot_cold = get_hot_or_iced()
   print("Alright, that's a {} {} {} in a {}!".format(size, hot_cold, drink_type, container_type))
   extra = get_extra_drink()
-def get_extra_drink():
+#def get_extra_drink():
   res = input("Would you like to order another drink? \n[a] Yes \n[b] No \n>")
   if res == "a":
     return extra_coffee_bot()
